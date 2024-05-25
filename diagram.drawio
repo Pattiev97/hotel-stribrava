@@ -19,11 +19,11 @@
                 <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3" target="4">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="CardList&amp;nbsp;&lt;br&gt;props = room, price, image&lt;br&gt;fetch -&amp;gt; rooms" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="3" value="CardList&amp;nbsp;&lt;br&gt;props = rooms&lt;br&gt;fetch -&amp;gt; rooms" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="140" y="170" width="200" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="CardDetail&lt;br&gt;props = room&lt;br&gt;state = finalPrice" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="170" y="280" width="120" height="50" as="geometry"/>
+                <mxCell id="4" value="CardDetail&lt;br&gt;props = name, descrip, image, price&lt;br&gt;state = finalPrice" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="280" width="220" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="Header" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="100" y="100" width="120" height="40" as="geometry"/>

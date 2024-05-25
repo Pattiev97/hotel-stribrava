@@ -1,7 +1,7 @@
 [
   { 
     "id": 0,
-    "room": "Úkryt",
+    "name": "Úkryt",
     "price": 450,
     "image": [
       {
@@ -13,7 +13,7 @@
   },
   { 
     "id": 1,
-    "room": "Základ",
+    "name": "Základ",
     "price": 700,
     "image": [
       {
@@ -25,7 +25,7 @@
   },
   { 
     "id": 2,
-    "room": "Klasik",
+    "name": "Klasik",
     "price": 1200,
     "image": [
       {
@@ -37,7 +37,7 @@
   },
   { 
     "id": 3,
-    "room": "Komfort",
+    "name": "Komfort",
     "price": 2500,
     "image": [
       {
@@ -49,7 +49,7 @@
   },
   { 
     "id": 4,
-    "room": "Luxus",
+    "name": "Luxus",
     "price": 8000,
     "image": [
       {
