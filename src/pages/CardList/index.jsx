@@ -7,13 +7,14 @@ export const CardList = ({ rooms }) => {
 
   return (
     <>
+    <div className='cards-row'>
       {rooms.map((room) => (
         <div
           className={'card'}
           key={room.id}
           onClick={() => setSelected(room.id)}
         >
-          <div className="cards-row">
+          <div className="cards">
             <img
               className="card__image"
               src={`http://localhost:4000/assets/${room.image.src}`}
@@ -24,9 +25,10 @@ export const CardList = ({ rooms }) => {
           </div>
         </div>
       ))}
-      {selected && (
+      {selected !== null && (
         <CardDetail room={rooms.find((room) => room.id === selected)} />
       )}
+      </div>
     </>
   );
 };

@@ -19,16 +19,16 @@ export const HomePage = () => {
   }, []);
 
   return (
+    <>
+    <Header />
     <div className="container">
-      <Header />
-      <main>
-        <div className="cards-header">
+        <div>
           <h2>Naše pokoje</h2>
           <p>Vyberte si, který z našich pokojů je pro vás ten pravý.</p>
         </div>
         <CardList rooms={rooms} />
-      </main>
-      <Footer />
     </div>
+    <Footer />
+    </>
   );
 };

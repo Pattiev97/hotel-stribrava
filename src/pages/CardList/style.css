@@ -1,0 +1,12 @@
+.cards-row {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 1rem 0;
+}
+
+.card__image {
+ max-width: 150px;
+ border-radius: 0.5rem;
+}

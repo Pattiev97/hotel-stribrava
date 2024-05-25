@@ -1,0 +1,31 @@
+footer {
+  box-sizing: border-box;
+  padding: 0;
+  background-color: #131e2a;
+  
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 8rem;
+  color: white;
+  line-height: 0.2rem;
+}
+
+
+.text__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-bottom: 3.5rem;
+}
+
+a {
+  color: white;
+}
+
+img {
+  width: 300px;
+  border-radius: 10px;
+}
