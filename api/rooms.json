@@ -1,0 +1,27 @@
+[
+  { 
+    "id": 0,
+    "room": "Úkryt",
+    "price": 450
+  },
+  { 
+    "id": 1,
+    "room": "Základ",
+    "price": 700
+  },
+  { 
+    "id": 2,
+    "room": "Klasik",
+    "price": 1200
+  },
+  { 
+    "id": 3,
+    "room": "Komfort",
+    "price": 2500
+  },
+  { 
+    "id": 4,
+    "room": "Luxus",
+    "price": 8000
+  }
+]
