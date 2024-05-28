@@ -5,16 +5,17 @@ export const CardDetail = ({ room }) => {
   const [finalPrice, setFinalPrice] = useState(0);
 
   return (
-    <>
-      <div className={'container'} room="">
-        <h2>Pokoj Kč na osobu za noc</h2>
+    <div className='container__detail'>
+      <div className='card__detail'>
+        <h2>Pokoj {room.name}, {room.price} Kč na osobu za noc</h2>
         <img
           src={`http://localhost:4000/assets/${room.image.src}`}
           alt={room.image.title}
+          className='detail__image'
         ></img>
         <p>{room.description}</p>
       </div>
-      <form>
+      <form className='card__form'>
         Od: <input type="date" value="date" />
         Do: <input type="date" value="date" />
         Počet osob: <input type="text" />
@@ -29,9 +30,12 @@ export const CardDetail = ({ room }) => {
         Bezbariérový přístup: <input type="checkbox" />
         E-mail: <input type="text" />
         Telefon: <input type="text" />
+        <h3>
         Celková cena za pobyt: {finalPrice} Kč.
+        </h3>
+        <br></br>
         <button>Odeslat poptávku</button>
       </form>
-    </>
+    </div>
   );
 };

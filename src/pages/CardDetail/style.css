@@ -1,0 +1,66 @@
+.container__detail {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem 8rem;
+}
+
+.card__detail {
+  display: grid;
+  align-content: space-between;
+  max-width: 500px;
+}
+
+.detail__image{
+  width: 500px;
+}
+
+.card__form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: baseline;
+  gap: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+
+input {
+  justify-self: left;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+input[type="tel"],
+select {
+  font-size: 1rem;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
+
+button {
+  font-size: 1rem;
+  background-color: #e76836;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  background-color: #eC845b;
+  cursor: pointer;
+}
+
+button.wide {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+}

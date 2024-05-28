@@ -1,7 +1,7 @@
 .container {
+  padding: 1rem 8rem;
   display: flex;
   flex-direction: column;
   background-color: #131e2a;
   color: white;
 }
-
